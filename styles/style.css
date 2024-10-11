@@ -1,0 +1,70 @@
+*{
+ margin: 0px;
+ padding: 0px;
+}
+#hero{
+background-color: rgba(229, 84, 115, 0.1);
+width: 1536px;
+height: 680px;
+display: flex;
+/* justify-content: center;
+align-items: center; */
+gap: 77.6px;
+
+}
+.hero-description-box{
+ width: 566px;
+ height: 404px;
+ margin: 157.6px 0px 117.6px 192px;
+}
+
+.des-heading{
+ color: rgb(39, 39, 39);
+  font-family: "Lato";
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 76.8px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 25.6px;
+}
+.des-pera{
+ color: rgba(39, 39, 39, 0.6);
+  font-family: "Lato";
+  font-size: 14.4px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 507.2px;
+  margin-bottom: 25.6px;
+}
+.btn{
+   color: rgb(255, 255, 255);
+   font-family: "Lato";
+   font-size: 16px;
+   font-weight: 700;
+   line-height: 19.2px;
+   letter-spacing: 0%;
+   text-align: left;
+   background: rgb(229, 84, 115);
+   border-style: none;
+}
+.btn-span{
+   width: 93.6px;
+   height: 51.2px;
+   background: rgb(229, 84, 115);
+   border-radius: 5px;
+   display: flex;
+   align-items: center;
+   justify-content: center; 
+}
+
+.hero-img{
+ width: 508px;
+ height: 640px;
+ background-image: url("/images/banner-image.png");
+ background-size: contain;
+ margin: 40px 192px 0px 0px;
+}
+
