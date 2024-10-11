@@ -80,6 +80,7 @@ gap: 77.6px;
 .text-div{
  width: 475.2px;
  height: 105.6px;
+ margin-bottom: 38.4px;
  
 }
 .text-div-heading{
@@ -90,6 +91,7 @@ gap: 77.6px;
   line-height: 38.4px;
   letter-spacing: 0%;
   text-align: center;
+  margin-bottom: 19.2px;
 }
 .text-div-para{
  color: rgba(39, 39, 39, 0.6);
@@ -102,6 +104,7 @@ gap: 77.6px;
 }
 .all-flower{
  display: flex;
+ gap: 24px;
 }
 .flower-and-name-container{
  width: 356.8px;
@@ -112,19 +115,40 @@ gap: 77.6px;
 
 .flower-container{
  border-radius: 300px 300px 0px 0px;
- background: rgba(167, 33, 98, 0.15);
+
  width: 371.2px;
  height: 430.4px;
  display: flex;
  margin-bottom: 25.6px;
 }
+.bg1{
+  background: rgba(167, 33, 98, 0.15);
+}
+.bg2{
+ background: rgba(5, 151, 160, 0.15);
+
+}
+.bg3{
+ background: rgba(71, 125, 17, 0.15);
+}
 .flower1{
  width: 248px;
  height: 342.4px;
- background-image: url("/images/featured1.png" );
  background-size: cover;
  background-position: bottom center;
  margin: 88px 62.4px 0px;
+}
+.bg-img1{
+ background-image: url("/images/featured1.png");
+}
+.bg-img2{
+ background-image: url("/images/featured2.png");
+ background-size: contain;
+ background-repeat: no-repeat;
+ background-position: center;
+}
+.bg-img3{
+ background-image: url("/images/featured3.png");
 }
 .flower1-name{
  color: rgb(39, 39, 39);
