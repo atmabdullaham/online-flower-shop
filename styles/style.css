@@ -73,6 +73,9 @@ gap: 77.6px;
  width: 1152px;
  height: 640px;
  margin: 142.4px auto 102.4px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
 }
 .text-div{
  width: 475.2px;
@@ -97,12 +100,40 @@ gap: 77.6px;
   letter-spacing: 0%;
   text-align: center;
 }
-.flower-container{
+.all-flower{
  display: flex;
-;
 }
-.flower1-img{
+.flower-and-name-container{
+ width: 356.8px;
+ height: 484px;
+ 
+ 
+}
+
+.flower-container{
  border-radius: 300px 300px 0px 0px;
-  background-color: rgba(167, 33, 98, 0.15);
-  background-size: cover;
+ background: rgba(167, 33, 98, 0.15);
+ width: 371.2px;
+ height: 430.4px;
+ display: flex;
+ margin-bottom: 25.6px;
+}
+.flower1{
+ width: 248px;
+ height: 342.4px;
+ background-image: url("/images/featured1.png" );
+ background-size: cover;
+ background-position: bottom center;
+ margin: 88px 62.4px 0px;
+}
+.flower1-name{
+ color: rgb(39, 39, 39);
+  font-family: "Lato";
+  font-size: 19.2px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-decoration-line: underline;
+ 
 }
