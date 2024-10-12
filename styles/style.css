@@ -46,10 +46,10 @@ gap: 77.6px;
    font-weight: 700;
    line-height: 19.2px;
    letter-spacing: 0%;
-   text-align: left;
    background: rgb(229, 84, 115);
    border-style: none;
 }
+
 .btn-span{
    width: 93.6px;
    height: 51.2px;
@@ -186,3 +186,51 @@ gap: 77.6px;
  margin-bottom: 24px;
 }
 
+/* Hot deal Section */
+
+#hot-deal{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 148.8px;
+ border-radius: 8px;
+ background: rgba(229, 84, 115, 0.05);
+ margin-bottom: 120px;
+}
+.deal-details{
+ width: 475.2px;
+ height: 220px;
+ text-align: center;
+}
+.deal-details h2{
+ font-family: "Lato";
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.deal-details p{
+ color: rgba(39, 39, 39, 0.6);
+  font-family: "Lato";
+  font-size: 14.4px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  margin-bottom: 28px;
+  
+}
+.deal-details span{
+ margin: 0 auto;
+}
+.deal-img{
+ width:254.4px ;
+ height: 344px;
+ background-image: url("/images/sale-0ff.png");
+ background-size: contain;
+ background-repeat: no-repeat;
+ background-position: bottom center;
+ margin: 50px 0px;
+
+}
