@@ -4,11 +4,11 @@
 }
 #hero{
 background-color: rgba(229, 84, 115, 0.1);
-width: 1536px;
+width: 100%;
 height: 680px;
 display: flex;
-/* justify-content: center;
-align-items: center; */
+justify-content: center;
+align-items: center;
 gap: 77.6px;
 
 }
@@ -64,23 +64,23 @@ gap: 77.6px;
  width: 508px;
  height: 640px;
  background-image: url("/images/banner-image.png");
- background-size: contain;
+ background-size: cover;
  margin: 40px 192px 0px 0px;
 }
 
 /* flower section */
 #flower{
- width: 1152px;
- height: 640px;
  margin: 142.4px auto 102.4px;
  display: flex;
  flex-direction: column;
  align-items: center;
+ /* border:2px solid red; */
 }
 .text-div{
  width: 475.2px;
  height: 105.6px;
  margin-bottom: 38.4px;
+ /* border: 2px solid greenyellow; */
  
 }
 .text-div-heading{
@@ -105,19 +105,20 @@ gap: 77.6px;
 .all-flower{
  display: flex;
  gap: 24px;
+ /* border: 2px solid yellow; */
 }
 .flower-and-name-container{
- width: 356.8px;
- height: 484px;
+ /* width: 356.8px;
+ height: 484px; */
+ /* border: 2px solid purple; */
  
  
 }
 
 .flower-container{
  border-radius: 300px 300px 0px 0px;
-
- width: 371.2px;
- height: 430.4px;
+ /* width: 371.2px;
+ height: 430.4px; */
  display: flex;
  margin-bottom: 25.6px;
 }
@@ -161,3 +162,27 @@ gap: 77.6px;
   text-decoration-line: underline;
  
 }
+/* Service section Design */
+#we-offer{
+   width: 1152px;
+   height: 256px;
+   margin: 0px auto 128px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 8px;
+   background: rgba(39, 39, 39, 0.05);
+
+  
+}
+.offer-container{
+ display: flex;
+ gap: 80px;
+}
+
+.img-span{
+ display: flex;
+ justify-content: center;
+ margin-bottom: 24px;
+}
+
