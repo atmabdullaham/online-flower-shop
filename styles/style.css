@@ -452,7 +452,7 @@ footer .p2{
       width: 508px;
       height: 640px;
       background-image: url("/images/banner-image.png");
-      background-size: cover;
-      margin: 40px 192px 0px 0px;
+      background-size: contain;
+      margin: 10px;
     }
 }
