@@ -392,7 +392,7 @@ footer .p2{
 }
 @media screen and (max-width:576px){
   #hero{
-    width: 0.5vw;
+    width: 80%;
     height: 80%;
     margin: 0px auto;
     display: flex;
@@ -400,19 +400,19 @@ footer .p2{
 
   }
   .hero-description-box {
-      width: 80vw;
-      height: 80vh;
+      width: 80%;
+      height: 80%;
      margin: 0px auto;
   }
     .des-heading {
       color: rgb(39, 39, 39);
       font-family: "Lato";
-      font-size: 0.5em;
+      font-size: 80%;
       font-weight: 800;
-      line-height: 0.5em;
+      line-height: 90%;
       letter-spacing: 0%;
       text-align: left;
-      margin-bottom: 0.5em;
+      margin-bottom: 80%;
     }
   
     .des-pera {
