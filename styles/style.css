@@ -390,69 +390,50 @@ footer .p2{
   letter-spacing: 0%;
   text-align: center;
 }
-@media screen and (max-width:576px){
+@media (max-width: 576px) {
   #hero{
-    width: 80%;
-    height: 80%;
-    margin: 0px auto;
     display: flex;
     flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+  }
+  .hero-container {
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+    padding: 20px;
+  }
 
-  }
   .hero-description-box {
-      width: 80%;
-      height: 80%;
-     margin: 0px auto;
+    width: 100%;
+    height: auto;
+    margin: 5px;
+    padding: 40px 20px;
   }
-    .des-heading {
-      color: rgb(39, 39, 39);
-      font-family: "Lato";
-      font-size: 80%;
-      font-weight: 800;
-      line-height: 90%;
-      letter-spacing: 0%;
-      text-align: left;
-      margin-bottom: 80%;
-    }
-  
-    .des-pera {
-      color: rgba(39, 39, 39, 0.6);
-      font-family: "Lato";
-      font-size: 0.5em;
-      font-weight: 400;
-      line-height: 0.5em;
-      letter-spacing: 0%;
-      text-align: left;
-      width: 0.5em;
-      margin-bottom: 0.5em;
-    }
-  
-    .btn {
-      color: rgb(255, 255, 255);
-      font-family: "Lato";
-      font-size: 0.5em;
-      font-weight: 700;
-      line-height: 0.5em;
-      letter-spacing: 0%;
-      background: rgb(229, 84, 115);
-      border-style: none;
-    }
-  
-    .btn-span {
-      width: 0.5em;
-      height: 51.2px;
-      background: rgb(229, 84, 115);
-      border-radius: 5px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-  
-    .hero-img {
-      width: 508px;
-      height: 640px;
-      background-image: url("/images/banner-image.png");
-      background-size: contain;
-      margin: 10px;
-    }
+
+  .des-heading {
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+  }
+
+  .des-pera {
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .btn-span {
+    width: auto;
+    height: 45px;
+  }
+
+  .hero-img {
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
 }
