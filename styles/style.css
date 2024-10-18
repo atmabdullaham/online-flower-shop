@@ -518,9 +518,9 @@ footer .p2{
  }
 
  .bg-img3 {
-   background-image: url("/images/featured3.png");
+   background-image: url("./images/featured3.png");
  }
-    #we-offer {
+  #we-offer {
       width: 100%;
       height: auto;
       flex-direction: column;
@@ -537,4 +537,35 @@ footer .p2{
     .img-span {
       margin-bottom: 16px;
     }
+        #hot-deal {
+          display: flex;
+          flex-direction: column;
+          gap: 24px;
+          padding: 24px;
+          margin-bottom: 64px;
+        }
+    
+        .deal-details {
+          width: 100%;
+          height: auto;
+        }
+    
+        .deal-details h2 {
+          font-size: 24px;
+          line-height: 36px;
+          margin-bottom: 16px;
+        }
+    
+        .deal-details p {
+          font-size: 14px;
+          line-height: 24px;
+          margin-bottom: 20px;
+        }
+    
+        .deal-img {
+          width: 100%;
+          height: auto;
+          max-width: 300px;
+          margin: 0 auto;
+        }
 }
